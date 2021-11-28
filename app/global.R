@@ -21,7 +21,7 @@ library(shinythemes)
 library(shinyanimate)
 library(shinyjs)
 library(shinyBS)
-
+library(rclipboard)
 
 library(dplyr)
 library(glue)
