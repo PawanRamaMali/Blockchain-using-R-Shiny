@@ -53,8 +53,10 @@ tabPanel("Build",
            fluidRow(
              br(),
              column(11,
-             verbatimTextOutput(outputId = "hashed_output",
-                                placeholder = FALSE),
+             textInput(inputId = "hashed_output",
+                       label = "",
+                       
+                                placeholder = FALSE)
              ),
              column(1,
              uiOutput("clip"))
